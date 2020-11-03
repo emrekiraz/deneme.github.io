@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="telephone=no"/>
     <link rel="dns-prefetch preconnect" href="https://cdn-cms-s.f-static.net" crossorigin="anonymous"/>
     <link rel="dns-prefetch preconnect" href="https://cdn-cms-s.f-static.net" crossorigin="anonymous"/>
     <link rel="dns-prefetch preconnect" href="https://cdn-cms.f-static.net" crossorigin="anonymous"/>
@@ -86,8 +86,9 @@
             font-size: 3rem !important;
 
         }
+
         a[href^=tel] {
-            text-decoration:inherit;
+            text-decoration: inherit;
             color: inherit;
         }
 
@@ -446,9 +447,1505 @@
             margin-bottom: 0.8em;
         }
 
-        .s123-module-pricing-tables.layout-1 .pricing-m {
-            position: relative;
+    .s123-module-team.layout-1 .team-member {
+        max-width: 500px;
+        margin: 0 auto 20px auto;
+        overflow: hidden;
+    }
+
+    .s123-module-team.layout-1 .team-image {
+        height: 200px;
+        width: 100%;
+        background-position: center center;
+        background-size: cover;
+        padding-top: 100%;
+    }
+
+    @media (min-width: 768px) {
+        .s123-module-team.layout-1 .col-centered {
+            display: inline-block;
+            float: none;
+            text-align: center;
+            vertical-align: text-top;
         }
+    }
+
+    .s123-module-team.layout-1 .team-details {
+        padding: 20px;
+    }
+
+    .s123-module-team.layout-1 .team-member .member-name {
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .s123-module-team.layout-1 .team-member .member-name:before {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #ecf0f1;
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+    }
+
+    .s123-module-team.layout-1 .team-member .position {
+        padding: 0;
+        display: block;
+    }
+
+    .s123-module-team.layout-1 .team-member .social-links {
+        padding-top: 10px;
+    }
+
+    .s123-module-team.layout-1 .team-member .social-links > li a {
+        border-color: #ecf0f1;
+        border-radius: 3px;
+    }
+
+    .s123-module-team.layout-1 .social {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        position: relative;
+        z-index: 100;
+    }
+
+    .s123-module-team.layout-1 .social li {
+        display: inline;
+        margin: 0 5px;
+    }
+
+    #teamPopupFloatDivPhone .page {
+        margin-top: 15px;
+        padding-top: 0;
+    }
+
+    #teamPopupFloatDivPhone .team_phone_icons a {
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    .team_phone_icons a {
+        color: white;
+    }
+
+    @media only screen and (min-width: 480px) {
+        #teamPopupFloatDivPhone .team_address_icons a, #teamPopupFloatDivPhone .team_phone_icons a {
+            font-size: 65px;
+        }
+    }
+
+    .s123-module-team.layout-1 .team-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .s123-module-team.layout-2 .team-member {
+        max-width: 500px;
+        margin: 0 auto 20px auto;
+        overflow: hidden;
+        border-top: 0;
+        border: 1px solid #f5f5f5;
+        border-radius: 4px;
+    }
+
+    .s123-module-team.layout-2 .team-image {
+        height: 200px;
+        width: 100%;
+        background-position: center center;
+        background-size: cover;
+        padding-top: 100%;
+    }
+
+    @media (min-width: 768px) {
+        .s123-module-team.layout-2 .col-centered {
+            display: inline-block;
+            float: none;
+            text-align: center;
+            vertical-align: text-top;
+        }
+    }
+
+    .s123-module-team.layout-2 .team-details {
+        padding: 20px;
+    }
+
+    .s123-module-team.layout-2 .team-member .member-name {
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .s123-module-team.layout-2 .team-member .member-name:before {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #ecf0f1;
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+    }
+
+    .s123-module-team.layout-2 .team-member .position {
+        padding: 0;
+        display: block;
+    }
+
+    .s123-module-team.layout-2 .team-member .social-links {
+        padding-top: 10px;
+    }
+
+    .s123-module-team.layout-2 .team-member .social-links > li a {
+        border-color: #ecf0f1;
+        border-radius: 3px;
+    }
+
+    .s123-module-team.layout-2 .social {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        position: relative;
+        z-index: 100;
+    }
+
+    .s123-module-team.layout-2 .social li {
+        display: inline;
+        margin: 0 3px;
+    }
+
+    .s123-module-team.layout-2.layout-2 .team-image {
+        border-radius: 100%;
+    }
+
+    .s123-module-team.layout-2 .team-member {
+        border: 0;
+    }
+
+    #teamPopupFloatDivPhone .page {
+        margin-top: 15px;
+        padding-top: 0;
+    }
+
+    #teamPopupFloatDivPhone .team_phone_icons a {
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    .team_phone_icons a {
+        color: white;
+    }
+
+    @media only screen and (min-width: 480px) {
+        #teamPopupFloatDivPhone .team_address_icons a, #teamPopupFloatDivPhone .team_phone_icons a {
+            font-size: 65px;
+        }
+    }
+
+    .s123-module-team.layout-2 .team-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .home_page .s123-module-team.layout-3, .inside_page .s123-module-team.layout-3 {
+        padding-bottom: 0;
+    }
+
+    .s123-module-team.layout-3 .team-image-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .s123-module-team.layout-3 .team-image-container.team-height {
+        height: 400px;
+    }
+
+    @media ( min-width: 768px ) {
+        .s123-module-team.layout-3 .team-height {
+            height: 400px;
+        }
+    }
+
+    @media ( min-width: 992px ) {
+        .s123-module-team.layout-3 .team-height {
+            height: 600px !important;
+        }
+    }
+
+    .s123-module-team.layout-3 .team-info-container {
+        text-align: center;
+    }
+
+    .s123-module-team.layout-3 .team-info-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media ( min-width: 768px ) {
+        .s123-module-team.layout-3 .team-info-container {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+
+    .s123-module-team.layout-3 .profile-content {
+        max-width: 400px;
+        max-height: 9em;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+
+    .s123-module-team.layout-3 .hr-design {
+        border-width: 2px;
+        max-width: 40px;
+    }
+
+    .s123-module-team.layout-3 .employee-title {
+        opacity: 0.7;
+    }
+
+    .s123-module-team.layout-3 .social-icons {
+        margin-bottom: 20px;
+    }
+
+    .s123-module-team.layout-3 .transform-centering {
+        -webkit-flex-direction: column;
+        -webkit-justify-content: center;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .s123-module-team.layout-3 .team-bg-image {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .s123-module-team.layout-3 .team-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .home_page .s123-module-team.layout-4, .inside_page .s123-module-team.layout-4 {
+        padding-bottom: 0;
+    }
+
+    .s123-module-team.layout-4 .team-image-container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .s123-module-team.layout-4 .team-info-container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .s123-module-team.layout-4 .team-image-container.team-height {
+        height: 400px;
+    }
+
+    @media ( min-width: 768px ) {
+        .s123-module-team.layout-4 .team-height {
+            height: 400px;
+        }
+    }
+
+    .s123-module-team.layout-4 .team-bg-image {
+        height: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .s123-module-team.layout-4 .team-info {
+        padding: 20px;
+    }
+
+    .s123-module-team.layout-4 .transform-centering {
+        height: 100%;
+        margin: 0 auto;
+        -webkit-flex-direction: column;
+        -webkit-justify-content: center;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media ( min-width: 768px ) {
+        .s123-module-team.layout-4 .transform-centering {
+            max-width: 800px;
+        }
+    }
+
+    @media ( min-width: 768px ) {
+        .s123-module-team.layout-4 .team-profile-attributes {
+            width: 270px;
+            margin: -10px 40px 0 0;
+            float: left;
+        }
+
+        html[dir=rtl] .s123-module-team.layout-4 .team-profile-attributes {
+            margin: -10px 0 0 40px;
+            float: right;
+        }
+    }
+
+    .s123-module-team.layout-4 .team-profile-attributes h3 {
+        padding-top: 15px;
+        margin-bottom: 12px;
+        border-top: 3px solid #5d5d5d;
+        line-height: 30px;
+    }
+
+    .s123-module-team.layout-4 .text-opacity {
+        opacity: 0.7;
+    }
+
+    .s123-module-team.layout-4 .social-icons {
+        margin-bottom: 20px;
+    }
+
+    .s123-module-team.layout-4 .team-text-content {
+        max-height: 13.5em;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    .s123-module-team.layout-4 .team-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .s123-module-team.layout-5 .team-m-image {
+        position: relative;
+        height: 200px;
+        width: 100%;
+        background-position: center center;
+        background-size: cover;
+        padding-top: 100%;
+    }
+
+    @media (min-width: 768px) {
+        .s123-module-team.layout-5 .col-centered {
+            display: inline-block;
+            float: none;
+            text-align: center;
+            vertical-align: text-top;
+        }
+    }
+
+    .s123-module-team.layout-5 .team-m-details {
+        padding: 10px;
+    }
+
+    .s123-module-team.layout-5 .team-m-member .member-name {
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .s123-module-team.layout-5 .team-m-member .position {
+        padding: 0;
+        padding: 2px 8px;
+        opacity: 0.8;
+        display: inline-block;
+    }
+
+    .s123-module-team.layout-5 .team-m-member .social {
+        position: absolute;
+        bottom: 12px;
+        right: 0;
+        padding: 7px;
+        margin: 0;
+        list-style: none;
+    }
+
+    html[dir=rtl] .s123-module-team.layout-5 .team-m-member .social {
+        right: auto;
+        left: 0;
+    }
+
+    .s123-module-team.layout-5 .team-m-member .social li {
+        display: inline;
+        margin: 0 3px;
+    }
+
+    .s123-module-team.layout-5 .team-m-member i {
+        padding-right: 6px;
+        padding-left: 6px;
+        font-size: 1.3em;
+    }
+
+    .s123-module-team.layout-5 .team-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .s123-module-team.layout-9 .team-member {
+        margin: 0 auto 0 auto;
+        overflow: hidden;
+        border-radius: 4px;
+        border: 0;
+        padding: 20px 15px;
+        height: 100%;
+    }
+
+    @media (max-width: 767px) {
+        .s123-module-team.layout-9 .team-member {
+            border: 0;
+            padding: 10px;
+        }
+    }
+
+    .s123-module-team.layout-9 .swiper-lazy-preloader {
+        border: 4px solid var(--global_main_color);
+        border-top-color: transparent;
+    }
+
+    .s123-module-team.layout-9 .team-image {
+        position: relative;
+        margin: auto auto 25px;
+        height: 140px;
+        width: 140px;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .s123-module-team.layout-9 .team-member .team-details {
+        margin-bottom: 20px;
+    }
+
+    .s123-module-team.layout-9 .team-member .team-details .member-description {
+        margin-bottom: 30px;
+    }
+
+    .s123-module-team.layout-9 .team-member .team-details .member-description, .s123-module-team.layout-9 .team-member .team-details .position {
+        opacity: 0.7;
+    }
+
+    .s123-module-team.layout-9 .col-centered {
+        outline: 0;
+        margin-bottom: 30px;
+        position: relative;
+        min-height: 1px;
+    }
+
+    .s123-module-team.layout-9 .team-member .member-name {
+        position: relative;
+        margin-top: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 0.8em;
+    }
+
+    .s123-module-team.layout-9 .team-member .position {
+        margin-top: 5px;
+        padding: 0;
+        display: block;
+        font-style: italic;
+    }
+
+    .s123-module-team.layout-9 .team-member .social-links {
+        padding-top: 10px;
+    }
+
+    .s123-module-team.layout-9 .team-member .social-links > li a {
+        border-color: #ecf0f1;
+        border-radius: 3px;
+    }
+
+    .s123-module-team.layout-9 .social {
+        padding: 0;
+        margin: 10px 0px 0px 0px;
+        list-style: none;
+        position: relative;
+        z-index: 100;
+    }
+
+    .s123-module-team.layout-9 .social li {
+        display: inline;
+        margin: 0 5px;
+    }
+
+    .s123-module-team.layout-9 .team-read-more {
+        margin-top: 10px;
+    }
+
+    .s123-module-team.layout-9 .team-read-more p {
+        margin-bottom: 0;
+    }
+
+    .s123-module-team.layout-9.layout-9 .team-image {
+        border-radius: 100%;
+    }
+
+    #teamPopupFloatDivPhone .page {
+        margin-top: 15px;
+        padding-top: 0;
+    }
+
+    #teamPopupFloatDivPhone .team_phone_icons a {
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    .team_phone_icons a {
+        color: white;
+    }
+
+    @media only screen and (min-width: 480px) {
+        #teamPopupFloatDivPhone .team_address_icons a, #teamPopupFloatDivPhone .team_phone_icons a {
+            font-size: 65px;
+        }
+    }
+
+    .s123-module-team.layout-9 .team-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .s123-module-team.layout-9 .team-category {
+        position: relative;
+    }
+
+    .s123-module-team.layout-9 .team-category .s123-module-shadows {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        width: 40px;
+        height: 100%;
+    }
+
+    .s123-module-team.layout-9 .team-category .s123-module-shadows.shadow-before {
+        left: -5px;
+    }
+
+    .s123-module-team.layout-9 .team-category .s123-module-shadows.shadow-after {
+        right: -5px;
+    }
+
+    .s123-module-team.layout-9 .owl-carousel {
+        display: block;
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    .s123-module-team.layout-9 .owl-carousel.owl-loaded, .s123-module-team.layout-9 .owl-carousel.manually-loaded {
+        opacity: 1;
+    }
+
+    .s123-module-team.layout-9 .owl-dot span {
+        opacity: 1;
+        border: 1px solid #fff;
+        background: #c0c0c0;
+        width: 9px !important;
+        height: 9px !important;
+        margin: 0;
+    }
+
+    .s123-module-team.layout-9 .owl-dot.active span {
+        background-color: #000;
+        width: 12px !important;
+        height: 12px !important;
+    }
+
+    .s123-module-team.layout-9 .owl-dots {
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px !important;
+    }
+
+    .s123-module-team.layout-9 .owl-dot {
+        margin: 0 4.5px;
+    }
+
+    .s123-module-team.layout-9 .team-category .owl-carousel.owl-loaded {
+        transition: box-shadow 0.4s ease;
+    }
+
+    .s123-module-team.layout-9 .team-category.owl-carousel.owl-loaded .owl-item.active.center .team-member-wrap {
+        box-shadow: 2px 3.5px 20px rgba(188, 198, 208, 0.3);
+    }
+
+    .s123-module-team.layout-9 .team-category .owl-carousel:not(.owl-loaded) .col-centered {
+        display: inline-block;
+        float: none;
+        text-align: center;
+        vertical-align: text-top;
+    }
+
+    .s123-module-team.layout-9 .team-category .owl-carousel:not(.owl-loaded) .team-member-wrap {
+        width: 324px;
+        padding: 0 15px;
+    }
+
+    .s123-module-team.layout-10 .team-member-container {
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    @media (max-width: 767px) {
+        .s123-module-team.layout-10 .team-member-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .s123-module-team.layout-10 .team-category .row:last-child .team-member-container {
+        margin-bottom: 0;
+    }
+
+    .s123-module-team.layout-10 .team-member-container .team-bg-image {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 15px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .s123-module-team.layout-10 .team-member-container .team-info-container {
+        width: 250px;
+    }
+
+    @media (min-width: 768px) {
+        .s123-module-team.layout-10 .team-member-container .team-bg-image {
+            height: 160px;
+            width: 160px;
+            margin-bottom: 0;
+        }
+
+        .s123-module-team.layout-10 .team-member-container .team-info-container {
+            width: calc(100% - 160px);
+            padding-left: 40px;
+            text-align: left;
+        }
+
+        html[dir=rtl] .s123-module-team.layout-10 .team-member-container .team-info-container {
+            text-align: right;
+            padding-right: 40px;
+            padding-left: 0;
+        }
+    }
+
+    .s123-module-team.layout-10 .team-member-container .team-info-container h3 {
+        margin-top: 0;
+        font-weight: bold;
+    }
+
+    .s123-module-team.layout-10 .text-opacity {
+        opacity: 0.7;
+    }
+
+    .s123-module-team.layout-10 .social-icons {
+        font-size: 0.5rem;
+    }
+
+    .s123-module-team.layout-10 .team-text-content {
+        overflow-wrap: break-word;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+
+    .s123-module-team.layout-10 .team-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    @media (min-width: 768px) {
+        .s123-module-team.layout-11 .col-centered {
+            display: inline-block;
+            float: none;
+            vertical-align: text-top;
+        }
+    }
+
+    .s123-module-team.layout-11 .team-member {
+        padding: 0 20px;
+        margin-bottom: 70px;
+    }
+
+    .s123-module-team.layout-11 .team-member-title {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .s123-module-team.layout-11 .team-image {
+        height: 90px;
+        width: 90px;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 50%;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+    .s123-module-team.layout-11 .team-details {
+        margin-left: 30px;
+        text-align: left;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .s123-module-team.layout-11 .team-details {
+            width: calc(100% - 90px);
+        }
+    }
+
+    html[dir=rtl] .s123-module-team.layout-11 .team-details {
+        text-align: right;
+        margin-right: 30px;
+        margin-left: 0px;
+    }
+
+    .s123-module-team.layout-11 .team-info p {
+        margin-bottom: 15px;
+    }
+
+    .s123-module-team.layout-11 .team-member .member-name {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .s123-module-team.layout-11 .team-member .position {
+        margin-bottom: 0px;
+        display: block;
+        opacity: 0.7;
+        font-size: 1.1em;
+    }
+
+    .s123-module-team.layout-11 .social {
+        padding: 0;
+        margin-bottom: 15px;
+        list-style: none;
+    }
+
+    .s123-module-team.layout-11 .social li {
+        display: inline;
+        margin: 0 3px;
+    }
+
+    @media (max-width: 767px) {
+        .s123-module-team.layout-11 .team-member-title {
+            flex-direction: column;
+        }
+
+        .s123-module-team.layout-11 .team-image {
+            margin-bottom: 15px;
+        }
+
+        .s123-module-team.layout-11 .team-details {
+            text-align: center;
+            margin: 0;
+        }
+    }
+
+    @media (max-width: 550px) {
+        .s123-module-team.layout-11 .team-member {
+            padding: 0;
+            margin-bottom: 35px;
+        }
+    }
+
+    @media (min-width: 550px) and (max-width: 767px) {
+        .s123-module-team.layout-11 .team-member-wrap.col-xs-12 {
+            width: 50%;
+        }
+    }
+
+    #teamPopupFloatDivPhone .page {
+        margin-top: 15px;
+        padding-top: 0;
+    }
+
+    #teamPopupFloatDivPhone .team_phone_icons a {
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    .team_phone_icons a {
+        color: white;
+    }
+
+    @media (min-width: 480px) {
+        #teamPopupFloatDivPhone .team_address_icons a, #teamPopupFloatDivPhone .team_phone_icons a {
+            font-size: 65px;
+        }
+    }
+
+    .s123-module-team.layout-11 .team-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .s123-module-team.layout-12 .team-m-image, .s123-module-team.layout-12 .team-m-member-first .team-m-image {
+        position: relative;
+        height: 250px;
+        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    @media (min-width: 768px) {
+        .s123-module-team.layout-12 .col-centered {
+            display: inline-block;
+            float: none;
+            text-align: center;
+            vertical-align: text-top;
+        }
+    }
+
+    .s123-module-team.layout-12 .team-m-member, .s123-module-team.layout-12 .team-m-member-first {
+        padding-bottom: 10px;
+    }
+
+    .s123-module-team.layout-12 .team-m-member .position, .s123-module-team.layout-12 .team-m-member-first .position {
+        padding: 2px 8px;
+        opacity: 0.8;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .s123-module-team.layout-12 .team-m-member .social, .s123-module-team.layout-12 .team-m-member-first .social {
+        padding: 7px;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 0.7rem;
+    }
+
+    @media (min-width: 1024px) {
+        .s123-module-team.layout-12 .team-m-member-first {
+            padding: 0 0 50px 0;
+            display: flex;
+        }
+
+        .s123-module-team.layout-12 .team-m-member-first .team-m-image {
+            width: 50%;
+            height: auto;
+            min-height: 300px;
+            flex-shrink: 0;
+        }
+
+        .s123-module-team.layout-12 .team-m-member-first .team-m-details {
+            width: 50%;
+            text-align: left;
+            padding: 20px 0 20px 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        html[dir=rtl] .s123-module-team.layout-12 .team-m-member-first .team-m-details {
+            text-align: right;
+            padding: 20px 100px 20px 0;
+        }
+
+        .s123-module-team.layout-12 .team-m-member-first .position {
+            padding: 0;
+        }
+
+        .s123-module-team.layout-12 .team-m-member-first .social {
+            padding: 0;
+        }
+    }
+
+    .s123-module-team.layout-12 .team-m-details {
+        padding: 10px;
+    }
+
+    .s123-module-team.layout-12 .team-m-member-first .social li, .s123-module-team.layout-12 .team-m-member .social li {
+        display: inline;
+        margin: 0 3px;
+    }
+
+    .s123-module-team.layout-12 .team-m-member-first i, .s123-module-team.layout-12 .team-m-member .social i {
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+
+    .s123-module-team.layout-12 .team-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .s123-module-testimonials .carousel.slide {
+        padding: 0 0 30px 0;
+        margin-top: 30px;
+    }
+
+    .s123-module-testimonials .carousel-control {
+        background: none !important;
+        color: inherit;
+        font-size: 2.3em;
+        text-shadow: none;
+        margin-top: 30px;
+    }
+
+    .s123-module-testimonials .carousel-indicators {
+        bottom: 0;
+    }
+
+    .s123-module-testimonials .carousel-indicators li {
+        background: #c0c0c0;
+    }
+
+    .s123-module-testimonials .carousel-indicators .active {
+        background: #333333;
+    }
+
+    .s123-module-testimonials img {
+        max-width: 100%;
+        max-height: 160px;
+        margin-bottom: 20px;
+    }
+
+    .s123-module-testimonials .item blockquote {
+        border-left: none;
+        margin: 0;
+    }
+
+    .s123-module-testimonials:not(.layout-8):not(.layout-9) .item blockquote p:before {
+        content: "\f10d";
+        font-family: 'Fontawesome';
+        float: left;
+        margin-right: 10px;
+    }
+
+    .s123-module-testimonials .item blockquote p {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+
+    .s123-module-testimonials .item blockquote small {
+        color: inherit;
+    }
+
+    html[dir=rtl] .s123-module-testimonials .item blockquote {
+        border-right: none;
+    }
+
+    html[dir=rtl] .s123-module-testimonials:not(.layout-8):not(.layout-9) .item blockquote p:before {
+        content: '\f10e';
+        float: right;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    @media (min-width: 768px) {
+        .s123-module-testimonials .carousel.slide {
+            padding: 0 100px 30px 100px;
+            margin: 0;
+        }
+
+        .s123-module-testimonials img {
+            margin-bottom: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .s123-module-testimonials .carousel-indicators {
+            bottom: -20px !important;
+        }
+
+        .s123-module-testimonials .carousel-indicators li {
+            display: inline-block;
+            margin: 0 5px;
+            width: 15px;
+            height: 15px;
+        }
+
+        .s123-module-testimonials .carousel-indicators li.active {
+            margin: 0 5px;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .s123-module-testimonials.layout-1 .carousel-inner .rating-area {
+        margin-bottom: 15px;
+    }
+
+    .s123-module-testimonials.layout-1 .carousel-inner .rating-area i.fa-star {
+        margin-right: 5px;
+        color: #ffbf00;
+    }
+
+    html[dir=rtl] .s123-module-testimonials.layout-1 .carousel-inner .rating-area i.fa-star {
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+
+    .s123-module-testimonials.layout-1 .testimonials-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .s123-module-testimonials.layout-1 img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .s123-module-testimonials.layout-1 .item .row .col-sm-3 img {
+            width: 95px;
+            height: 95px;
+        }
+    }
+
+    .s123-module-testimonials.layout-2 .rating-area {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .s123-module-testimonials.layout-2 .box {
+        min-height: 20px;
+        padding: 19px;
+        margin-bottom: 20px;
+    }
+
+    .s123-module-testimonials.layout-2 .rating-area i.fa-star {
+        margin-right: 5px;
+        color: #ffbf00;
+    }
+
+    html[dir=rtl] .s123-module-testimonials.layout-2 .rating-area i.fa-star {
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+
+    .s123-module-testimonials.layout-2 .testimonials-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .s123-module-testimonials.layout-3 .rating-area {
+        margin-top: 10px;
+    }
+
+    .s123-module-testimonials.layout-3 .rating-area i.fa-star {
+        margin-right: 5px;
+        color: #ffbf00;
+    }
+
+    html[dir=rtl] .s123-module-testimonials.layout-3 .rating-area i.fa-star {
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+
+    .s123-module-testimonials.layout-3 .testimonials-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .s123-module-testimonials.layout-4 .testimonials-text-container {
+        margin-bottom: 40px;
+        clear: both;
+    }
+
+    @media ( min-width: 768px ) {
+        .s123-module-testimonials.layout-4 .testimonials-text-container {
+            clear: none;
+        }
+
+        .s123-module-testimonials.layout-4 .testimonials-text-container:nth-child(odd) {
+            clear: both;
+        }
+    }
+
+    @media ( min-width: 970px ) {
+        .s123-module-testimonials.layout-4 .testimonials-text-container:nth-child(odd) {
+            clear: none;
+        }
+
+        .s123-module-testimonials.layout-4 .testimonials-text-container:nth-child(3n+1) {
+            clear: both;
+        }
+    }
+
+    .s123-module-testimonials.layout-4 .testimonials-text-container blockquote {
+        border-left: none;
+        border-right: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .s123-module-testimonials.layout-4 .testimonials-text-container blockquote p:before {
+        content: '\f10d';
+        font-family: 'Fontawesome';
+        float: left;
+        margin-right: 10px;
+    }
+
+    html[dir=rtl] .s123-module-testimonials.layout-4 .testimonials-text-container blockquote p:before {
+        content: '\f10e';
+        float: right;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .s123-module-testimonials.layout-4 .testimonials-text-container blockquote p {
+        margin-bottom: 10px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+
+    .s123-module-testimonials.layout-4 .testimonials-img img {
+        max-width: 100%;
+        max-height: 130px;
+        margin-bottom: 10px;
+        padding: 4px;
+        line-height: 1.42857143;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    .s123-module-testimonials.layout-4 .testimonials-text-container blockquote small:before {
+        content: none;
+    }
+
+    .s123-module-testimonials.layout-4 .testimonials-text-container .testimonials-role {
+        font-style: italic;
+        display: block;
+    }
+
+    .s123-module-testimonials.layout-4 .testimonials-text-container .testimonials-name {
+        font-size: 15px;
+    }
+
+    .s123-module-testimonials.layout-4 .rating-area {
+        margin-top: 10px;
+    }
+
+    .s123-module-testimonials.layout-4 .rating-area i.fa-star {
+        margin-right: 5px;
+        color: #ffbf00;
+    }
+
+    html[dir=rtl] .s123-module-testimonials.layout-4 .rating-area i.fa-star {
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+
+    .s123-module-testimonials.layout-4 .testimonials-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .s123-module-testimonials.layout-8 .testimonial-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (min-width: 767px) {
+        .s123-module-testimonials.layout-8 .testimonial-container {
+            flex-direction: row;
+            align-items: normal;
+        }
+    }
+
+    .s123-module-testimonials.layout-8 .carousel.slide {
+        padding: 0px;
+        margin: 0;
+    }
+
+    @media (min-width: 767px) {
+        .s123-module-testimonials.layout-8 .carousel.slide {
+            padding: 0 0 30px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .s123-module-testimonials.layout-8 .carousel.slide {
+            padding: 0 50px 30px 50px;
+        }
+    }
+
+    .s123-module-testimonials.layout-8 blockquote {
+        padding: 10px 12px 25px 12px;
+    }
+
+    @media (min-width: 992px) {
+        .s123-module-testimonials.layout-8 blockquote {
+            padding: 10px 0px 25px 0px;
+        }
+    }
+
+    @media (min-width: 767px) {
+        .s123-module-testimonials.layout-8 .testimonial-container .testimonial-item {
+            flex-grow: 0;
+            flex-shrink: 0;
+            flex-basis: 50%;
+            max-width: 50%;
+        }
+    }
+
+    .s123-module-testimonials.layout-8 .testimonial-container .testimonial-image {
+        height: 300px;
+        width: 100%;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    @media (max-width: 767px) {
+        .s123-module-testimonials.layout-8 .testimonial-container .testimonial-image {
+            min-height: 0 !important;
+        }
+    }
+
+    @media (min-width: 767px) {
+        .s123-module-testimonials.layout-8 .testimonial-container .testimonial-image {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .s123-module-testimonials.layout-8 .testimonial-container .testimonial-statement {
+        padding: 40px 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media (min-width: 767px) {
+        .s123-module-testimonials.layout-8 .testimonial-container .testimonial-statement {
+            padding: 50px 40px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .s123-module-testimonials.layout-8 .testimonial-container .testimonial-statement {
+            padding: 50px 52px 40px 48px;
+        }
+    }
+
+    .s123-module-testimonials.layout-8 .testimonial-container .testimonial-title {
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        font-size: 70%;
+        font-weight: 700;
+    }
+
+    @media (min-width: 767px) {
+        .s123-module-testimonials.layout-8 .testimonial-container .testimonial-title {
+            margin-bottom: -5px;
+            font-size: inherit;
+            font-weight: normal;
+        }
+    }
+
+    .s123-module-testimonials.layout-8 .testimonial-container .testimonial-name {
+        margin-bottom: 0px;
+    }
+
+    @media (min-width: 767px) {
+        .s123-module-testimonials.layout-8 .testimonial-container .testimonial-name {
+            margin-bottom: 5px;
+        }
+    }
+
+    .s123-module-testimonials.layout-8 .carousel-inner .rating-area, .s123-module-testimonials.layout-8 .testimonial-container p {
+        margin-bottom: 20px;
+    }
+
+    .s123-module-testimonials.layout-8 .carousel-inner .rating-area i.fa-star {
+        margin-right: 5px;
+        color: #ffbf00;
+    }
+
+    html[dir=rtl] .s123-module-testimonials.layout-8 .carousel-inner .rating-area i.fa-star {
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+
+    .s123-module-testimonials.layout-8 .testimonial-link {
+        width: fit-content;
+    }
+
+    .s123-module-testimonials.layout-8 .testimonials-category:not([data-categories-filter="s123-g-show-all"]) {
+        display: none;
+    }
+
+    .s123-module-testimonials.layout-8 .carousel-control {
+        margin-top: 380px;
+        opacity: 0.85;
+    }
+
+    @media (min-width: 767px) {
+        .s123-module-testimonials.layout-8 .carousel-control {
+            margin-top: auto !important;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: space-around;
+            opacity: 0.5;
+        }
+    }
+
+    .s123-module-testimonials.layout-8 .testimonial-chevron {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 24px;
+        height: 24px;
+        background-color: #1d2626;
+        border-radius: 50px;
+    }
+
+    @media (min-width: 992px) {
+        .s123-module-testimonials.layout-8 .testimonial-chevron {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: auto;
+            height: auto;
+            background-color: transparent;
+            border-radius: 50px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .s123-module-testimonials.layout-8 .testimonial-chevron i {
+            color: #fff;
+            font-size: 12px;
+        }
+    }
+
+    .s123-module-testimonials.layout-8 .carousel-control.left {
+        justify-content: flex-start;
+    }
+
+    html[dir="rtl"] .s123-module-testimonials.layout-8 .carousel-control.left {
+        justify-content: flex-end;
+    }
+
+    .s123-module-testimonials.layout-8 .carousel-control.right {
+        justify-content: flex-end;
+    }
+
+    html[dir="rtl"] .s123-module-testimonials.layout-8 .carousel-control.right {
+        justify-content: flex-start;
+    }
+
+    .s123-module-testimonials.layout-8 .testimonial-chevron.right {
+        float: right;
+    }
+
+    html[dir="rtl"] .s123-module-testimonials.layout-8 .testimonial-chevron.right {
+        float: none;
+    }
+
+    .s123-module-testimonials.layout-8 .testimonial-chevron.left {
+        float: none;
+    }
+
+    html[dir="rtl"] .s123-module-testimonials.layout-8 .testimonial-chevron.left {
+        float: left;
+    }
+
+    .s123-module-testimonials.layout-8 .testimonial-chevron.right i:before {
+        margin-left: 2px;
+    }
+
+    html[dir="rtl"] .s123-module-testimonials.layout-8 .testimonial-chevron.right i:before {
+        margin-left: auto;
+        margin-right: 2px;
+    }
+
+    .s123-module-testimonials.layout-8 .testimonial-chevron.left i:before {
+        margin-right: 2px;
+    }
+
+    html[dir="rtl"] .s123-module-testimonials.layout-8 .testimonial-chevron.left i:before {
+        margin-right: auto;
+        margin-left: 2px;
+    }
+
+    .s123-module-testimonials.layout-8 .carousel-indicators li {
+        margin: 0px 8px;
+        height: 12px;
+        width: 12px;
+    }
+
+    .s123-module-testimonials.layout-9 .testimonial-image-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .s123-module-testimonials.layout-9 .testimonial-image {
+        height: 190px;
+        width: 190px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 1.8rem;
+    }
+
+    .s123-module-testimonials.layout-9 .testimonial-quote-container {
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    html[dir=rtl] .s123-module-testimonials.layout-9 .testimonial-quote-container {
+        flex-direction: row-reverse;
+    }
+
+    .s123-module-testimonials.layout-9 .testimonial-quote {
+        width: 4.2rem;
+        height: 4.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: #fff;
+    }
+
+    .s123-module-testimonials.layout-9 p {
+        line-height: 2;
+        text-align: center;
+    }
+
+    .s123-module-testimonials.layout-9 .item {
+        padding: 0rem 0.8rem;
+    }
+
+    .s123-module-testimonials.layout-9 .carousel-inner .rating-area i.fa-star {
+        margin-right: 0.3rem;
+        color: #ffbf00;
+    }
+
+    html[dir=rtl] .s123-module-testimonials.layout-9 .carousel-inner .rating-area i.fa-star {
+        margin-right: 0rem;
+        margin-left: 0.3rem;
+    }
+
+    .s123-module-testimonials.layout-9 .rating-area, .s123-module-testimonials.layout-9 .testimonial-link, .s123-module-testimonials.layout-9 .testimonial-title, .s123-module-testimonials.layout-9 .testimonial-name {
+        margin-bottom: 0.8rem;
+        text-align: center;
+    }
+
+    .s123-module-testimonials.layout-9 .testimonial-name {
+        font-weight: 700;
+    }
+
+    .s123-module-testimonials.layout-9 .carousel-control {
+        margin-top: calc(176px + 3.9rem);
+    }
+
+    @media (min-width: 992px) {
+        .s123-module-testimonials.layout-9 .carousel-control {
+            margin-top: calc(172px + 3.9rem);
+        }
+    }
+
+    .s123-module-pricing-tables.layout-1 .pricing-m {
+        position: relative;
+    }
 
         .s123-module-pricing-tables.layout-1 .pricing-m [class^=col-] {
             margin-top: 20px;
@@ -783,7 +2280,8 @@
                 <div class="container" data-aos="fade-up">
                     <div class="row text-center">
                         <div class="col-md-4">
-                            <div style="background-color: #6be0ec !important;" class="service-item box-primary s123-box-top-primary-border s123-box-flying-up prop-box">
+                            <div style="background-color: #6be0ec !important;"
+                                 class="service-item box-primary s123-box-top-primary-border s123-box-flying-up prop-box">
                                 <span class="fa-stack fa-4x img-circle bgLazyload"
                                       data-bg="https://www.gifntext.com/temp_generations/fudiir5H.gif"></span>
                                 <h4>
@@ -792,20 +2290,25 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div style="background-color: #6be0ec !important;"  class="service-item box-primary s123-box-top-primary-border s123-box-flying-up prop-box">
+                            <div style="background-color: #6be0ec !important;"
+                                 class="service-item box-primary s123-box-top-primary-border s123-box-flying-up prop-box">
                                 <span class="fa-stack fa-4x img-circle bgLazyload"
                                       data-bg="https://cdn-cms.f-static.net/uploads/4449944/400_5f9dee9412af2.jpg"></span>
                                 <h4>
                                     <strong>Tam Donanım (4-4)</strong></h4>
-                                <p>Sınava hazırlanırken ihtiyaç duyabileceğin her şey (Kitaplar, sınavlar, konu videoları, özel eğitim videoları, soru çözüm hakkı ve profesyonel destek) burada!</p></div>
+                                <p>Sınava hazırlanırken ihtiyaç duyabileceğin her şey (Kitaplar, sınavlar, konu
+                                    videoları, özel eğitim videoları, soru çözüm hakkı ve profesyonel destek)
+                                    burada!</p></div>
                         </div>
                         <div class="col-md-4 ">
-                            <div style="background-color: #6be0ec !important;" class="service-item box-primary s123-box-top-primary-border s123-box-flying-up prop-box">
+                            <div style="background-color: #6be0ec !important;"
+                                 class="service-item box-primary s123-box-top-primary-border s123-box-flying-up prop-box">
                                 <span class="fa-stack fa-4x img-circle bgLazyload"
                                       data-bg="https://cdn-cms.f-static.net/uploads/4449944/400_5f9deeb2a87ce.jpg"></span>
                                 <h4>
                                     <strong>Sıfır Karmaşıklık</strong></h4>
-                                <p>İhtiyacın olabilecek her şey; dikkatin dağılmasın, kolay ulaşabilesin diye tek çatı altında!</p></div>
+                                <p>İhtiyacın olabilecek her şey; dikkatin dağılmasın, kolay ulaşabilesin diye tek çatı
+                                    altında!</p></div>
                         </div>
                     </div>
                 </div>
@@ -825,18 +2328,21 @@
                 </div>
                 <div class="container" data-aos="fade-up">
                     <div class="row">
-                        <div style="margin: 10px; background-color: #6be0ec !important;" class="service-item box-primary s123-box-top-primary-border s123-box-flying-up col-sm-12 service box-primary">
+                        <div style="margin: 10px; background-color: #6be0ec !important;"
+                             class="service-item box-primary s123-box-top-primary-border s123-box-flying-up col-sm-12 service box-primary">
                             <img class="lazyload"
                                  data-src="https://cdn-cms.f-static.net/uploads/4449944/800_5f9df4769a367.png">
                             <h3>Koç Seçimi</h3>
                             <p>Hedefinize, hayallerinize uygun size en uygun Koç’u seçin ve çalışmaya başlayın!</p>
                         </div>
-                        <div style="margin: 10px; background-color: #6be0ec !important;" class="service-item box-primary s123-box-top-primary-border s123-box-flying-up col-sm-12 service box-primary">
+                        <div style="margin: 10px; background-color: #6be0ec !important;"
+                             class="service-item box-primary s123-box-top-primary-border s123-box-flying-up col-sm-12 service box-primary">
                             <img class="lazyload"
                                  data-src="https://cdn-cms.f-static.net/uploads/4449944/800_crop_5f9df5b09d47e_5f9df4ea5ffe7.png">
                             <h3>Koç’un Önerileri</h3>
                             <p>Koç’unuzla konuşun ve size önerdiklerinden yararlanmak için platformu kullanın!</p></div>
-                        <div style="margin: 10px; background-color: #6be0ec !important;" class="service-item box-primary s123-box-top-primary-border s123-box-flying-up col-sm-12 service box-primary">
+                        <div style="margin: 10px; background-color: #6be0ec !important;"
+                             class="service-item box-primary s123-box-top-primary-border s123-box-flying-up col-sm-12 service box-primary">
                             <img class="lazyload"
                                  data-src="https://cdn-cms.f-static.net/uploads/4449944/800_crop_5f9df5785c66c_5f9df53525273.png">
                             <h3>Her Şeyi Bulun</h3>
@@ -958,6 +2464,140 @@
                     </div>
                 </div>
             </section>
+            <section id="section-5fa140d66208a" class="s123-module s123-module-testimonials layout-9 bg-primary">
+                <div data-aos="fade-up" class="container-fluid page_header_style page_header_style_">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row modulesTitle">
+                                <div class="col-xs-12 text-center"><H2 id="section-5fa140d66208a-title"
+                                                                       class="s123-page-header">Referanslar</H2>
+                                    <hr class="small">
+                                    <h4 id="section-5fa140d66208a-slogan" class="s123-page-slogan"></h4></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up">
+                    <div class="text-center"><!-- Categories area -->
+                        <div class="row" style="display:none;">
+                            <div class="s123-categories col-xs-12">
+                                <ul class="items-categories-container">
+                                    <li data-categories-filter="all"><a href="#">All</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- /.row --><!-- Items Area -->
+                    <div class="row">
+                        <div class="col-xs-12 testimonials-category" data-categories-filter="all">
+                            <div data-ride="carousel" class="carousel slide"><!-- Carousel Slides / Quotes -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <blockquote>
+                                            <div class="row">
+                                                <div class="testimonial-image-container">
+                                                    <div class="testimonial-image img-circle bgLazyload"
+                                                         data-bg="https://cdn-cms.f-static.net/ready_uploads/media/2692711/400_5e0be508afae5.jpg"></div>
+                                                </div>
+                                                <div class="testimonial-quote-container">
+                                                    <div class="testimonial-quote background-primary-color img-circle text-150">
+                                                        <i class="fa fa-quote-left"></i></div>
+                                                </div>
+                                                <p>Bu, web sitenize müşteri geribildirimi / memnuniyeti eklemek için kullanabileceğiniz referanslardan biridir. Bu metnin tümünü düzenleyebilir ve müşterilerinizin sizin, şirketiniz veya hizmetleriniz hakkında söyleyecekleri herhangi bir şeyle değiştirebilirsiniz. Sayfalar sekmesinden Düzenle düğmesine tıklayarak düzenleyin.</p>
+                                                <div class="testimonial-name primary-color">Amy Warmouth</div>
+                                                <div class="testimonial-title">İç mekan görüntüleyici</div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <div class="item ">
+                                        <blockquote>
+                                            <div class="row">
+                                                <div class="testimonial-image-container">
+                                                    <div class="testimonial-image img-circle bgLazyload"
+                                                         data-bg="https://cdn-cms.f-static.net/ready_uploads/media/2692690/400_5e0be51c56b84.jpg"></div>
+                                                </div>
+                                                <div class="testimonial-quote-container">
+                                                    <div class="testimonial-quote background-primary-color img-circle text-150">
+                                                        <i class="fa fa-quote-left"></i></div>
+                                                </div>
+                                                <p>Bu, web sitenize müşteri geribildirimi / memnuniyeti eklemek için kullanabileceğiniz referanslardan biridir. Bu metnin tümünü düzenleyebilir ve müşterilerinizin sizin, şirketiniz veya hizmetleriniz hakkında söyleyecekleri herhangi bir şeyle değiştirebilirsiniz. Sayfalar sekmesinden Düzenle düğmesine tıklayarak düzenleyin.</p>
+                                                <div class="testimonial-name primary-color">Julia Western</div>
+                                                <div class="testimonial-title">Kıdemli Tasarımcı</div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <!-- Carousel Buttons Next/Prev -->
+                                <a href='javascript:void(0);' class="carousel-control left">
+                                    <div class="testimonial-chevron left"><i class="fa fa-chevron-left"></i></div>
+                                </a><a href="javascript:void(0);" class="carousel-control right">
+                                    <div class="testimonial-chevron right"><i class="fa fa-chevron-right"></i></div>
+                                </a></div>
+                        </div>
+                    </div>
+                    <!-- layout Customize -->
+                </div>
+                <!-- /.container -->
+            </section>
+            <section id="section-5fa141266208b" class="s123-module s123-module-team layout-2">
+                <div data-aos="fade-up" class="container-fluid page_header_style page_header_style_">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row modulesTitle">
+                                <div class="col-xs-12 text-center"><H2 id="section-5fa141266208b-title"
+                                                                       class="s123-page-header">EKiP</H2>
+                                    <hr class="small">
+                                    <h4 id="section-5fa141266208b-slogan" class="s123-page-slogan"></h4></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up"><!-- Categories area --> <!-- Items area -->
+                    <div class="row text-center team-category" data-categories-filter="s123-g-show-all">
+                        <div class="col-md-3 col-sm-6 team-member-wrap col-centered">
+                            <div class="team-member">
+                                <div class="team-image bgLazyload"
+                                     data-bg="//cdn-cms.f-static.net/uploads/2031/400_5a15a9eb3b616.jpg"></div>
+                                <div class="team-details">
+                                    <div><h4 class="member-name">Jack Hendrix</h4></div>
+                                    <div><p class="position">Başkan</p></div>
+                                    <div><p>Bu, şirketinizin çalışanları için kullanabileceğiniz yerlerden biridir.
+                                        Resmini değiştirebilir ve çalışanlarınızı tanıtmak için buraya istediğiniz metni
+                                        ekleyebilirsiniz.</p></div>
+                                    <ul class="social"></ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 team-member-wrap col-centered">
+                            <div class="team-member">
+                                <div class="team-image bgLazyload"
+                                     data-bg="//cdn-cms.f-static.net/uploads/2031/400_5a28197578ae8.jpg"></div>
+                                <div class="team-details">
+                                    <div><h4 class="member-name">Elizabeth Newman</h4></div>
+                                    <div><p class="position">Ortak</p></div>
+                                    <div><p>Bu, şirketinizin çalışanları için kullanabileceğiniz yerlerden biridir.
+                                        Resmini değiştirebilir ve çalışanlarınızı tanıtmak için buraya istediğiniz metni
+                                        ekleyebilirsiniz.</p></div>
+                                    <ul class="social"></ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 team-member-wrap col-centered">
+                            <div class="team-member">
+                                <div class="team-image bgLazyload"
+                                     data-bg="//cdn-cms.f-static.net/uploads/2031/400_5a28193a182fa.jpg"></div>
+                                <div class="team-details">
+                                    <div><h4 class="member-name">Lucy Lennon</h4></div>
+                                    <div><p class="position">Ofis Yöneticisi</p></div>
+                                    <div><p>Bu, şirketinizin çalışanları için kullanabileceğiniz yerlerden biridir.
+                                        Resmini değiştirebilir ve çalışanlarınızı tanıtmak için buraya istediğiniz metni
+                                        ekleyebilirsiniz.</p></div>
+                                    <ul class="social"></ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section id="section-56f3eb72d83fa" class="s123-module s123-module-contact layout-4">
                 <div data-aos="fade-up" class="container-fluid page_header_style page_header_style_">
                     <div class="row">
@@ -1055,6 +2695,14 @@
                             <li class="moduleMenu" data-menu-module-id="5f9df6cebfac8">
                                 <a class="page-scroll" href="#section-5f9df6cebfac8">
                                     <span class="txt-container">FİYATLANDIRMA</span></a></li>
+                        </ul>
+                        <ul class="navPages nav navbar-nav hidden-xs">
+                            <li class="moduleMenu" data-menu-module-id="56f3eb72d83fa">
+                                <a class="page-scroll" href="#section-56f3eb72d83fa">
+                                    <span class="txt-container">REFERANSLAR</span></a></li>
+                            <li class="moduleMenu" data-menu-module-id="5fa140d66208a">
+                                <a class="page-scroll" href="#section-5fa140d66208a">
+                                    <span class="txt-container">EKİP</span></a></li>
                             <li class="moduleMenu" data-menu-module-id="56f3eb72d83fa">
                                 <a class="page-scroll" href="#section-56f3eb72d83fa">
                                     <span class="txt-container">HEMEN DENE!</span></a></li>
